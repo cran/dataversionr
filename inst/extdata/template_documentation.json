@@ -1,0 +1,21 @@
+{
+   "name":"human readable description",
+   "url":"url of dataset",
+   "maintainer":"email address of the dataset maintainer",
+   "description":"description - less than 50 words",
+   "notes":"Any additional information that helps user to understand the data",
+   "additional_docs":"links to any additional documentation about the data",
+   "schema":{
+      "fields":[
+         {
+            "name": "column name",
+            "label": "short description of the variable",
+            "type": "variable type",
+            "description": "description of variable",
+            "notes": "Any additional information that helps user to understand the variable",
+            "additional_docs": "links to any additional documentation about variable"
+         }
+      ],
+      "primaryKey":"specification of the primary key. You can use null, a field name an array of field names."
+   }
+}
